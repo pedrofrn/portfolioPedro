@@ -1,0 +1,72 @@
+[
+    {
+        "tipo": "design",
+        "titulo": "Marca Ambiental",
+        "descricao": "alguma descricao",
+        "imagem": "imgs/trabalhos/proposta-marca-grass-green2.jpg",
+        "link": ""
+    },
+    {
+        "tipo": "design",
+        "titulo": "Marca Ambiental",
+        "descricao": "alguma descricao",
+        "imagem": "imgs/trabalhos/CARD-PREPARACAO-PROVA-ORAL-MP-BA.png",
+        "link": ""
+    },
+    {
+        "tipo": "web",
+        "titulo": "Marca Ambiental",
+        "descricao": "alguma descricao",
+        "imagem": "imgs/trabalhos/card-remanescentes-santa-ines-04-03-2024.jpg",
+        "link": ""
+    },
+    {
+        "tipo": "web",
+        "titulo": "Card desenvolvido para algo",
+        "descricao": "card-renovacao-grad uacao -s anta-ines-06-0 3-2024.png card-re novaca -graduacao-santa-ines-06-03-2024.png lorem",
+        "imagem": "imgs/trabalhos/card-renovacao-graduacao-santa-ines-06-03-2024.png",
+        "link": "2"
+    },
+    {
+        "tipo": "design",
+        "titulo": "Marca Ambiental",
+        "descricao": "alguma descricao",
+        "imagem": "imgs/trabalhos/CARD-PREPARACAO-PROVA-ORAL-MP-BA.png",
+        "link": ""
+    },
+    {
+        "tipo": "web",
+        "titulo": "Marca Ambiental",
+        "descricao": "alguma descricao",
+        "imagem": "imgs/trabalhos/card-remanescentes-santa-ines-04-03-2024.jpg",
+        "link": ""
+    },
+    {
+        "tipo": "web",
+        "titulo": "Card desenvolvido para algo",
+        "descricao": "card-renovacao-grad uacao -s anta-ines-06-0 3-2024.png card-re novaca -graduacao-santa-ines-06-03-2024.png lorem",
+        "imagem": "imgs/trabalhos/card-renovacao-graduacao-santa-ines-06-03-2024.png",
+        "link": "2"
+    },
+    {
+        "tipo": "web",
+        "titulo": "Card desenvolvido para algo",
+        "descricao": "card-renovacao-grad uacao -s anta-ines-06-0 3-2024.png card-re novaca -graduacao-santa-ines-06-03-2024.png lorem",
+        "imagem": "imgs/trabalhos/card-renovacao-graduacao-santa-ines-06-03-2024.png",
+        "link": "2"
+    },
+    {
+        "tipo": "design",
+        "titulo": "Marca Ambiental",
+        "descricao": "alguma descricao",
+        "imagem": "imgs/trabalhos/CARD-PREPARACAO-PROVA-ORAL-MP-BA.png",
+        "link": ""
+    },
+    {
+        "tipo": "web",
+        "titulo": "Marca Ambiental",
+        "descricao": "alguma descricao",
+        "imagem": "imgs/trabalhos/card-remanescentes-santa-ines-04-03-2024.jpg",
+        "link": ""
+    }
+]
