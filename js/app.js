@@ -1,8 +1,8 @@
 const meses = ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro'];
 
 const data = document.querySelector('.portfolio .data');
-const date = new Date();
-data.innerText = `${meses[date.getMonth()]} de ${date.getFullYear()}`;
+const currDate = new Date();
+data.innerText = `${meses[currDate.getMonth()]} de ${currDate.getFullYear()}`;
 const main = document.querySelector('main');
 const trabalhos = main.querySelector('div.trabalhos');
 
@@ -89,18 +89,25 @@ function filtroTipo(data, filtro) {
 }
 
 function openLightbox(index, data) {
+    const larguraWindow = window.innerWidth;
+    console.log(larguraWindow)
     const lightbox = document.createElement('div');
+    const fechar = createDiv('fechar');
     const sobreTrabalho = createDiv('sobreTrabalho', `<span class="tipo">${data[index].tipo}</span><h2>${data[index].titulo}</h2><p>${data[index].descricao}</p>${data[index].link !== '' ? '<div class="link">Confira <a href="' + data[index].link + '" target="_blank">neste link</a>.</div>' : ''}<div class="rodapeLightbox">Produzido por <strong>Pedro Fernandes</strong></div>`)
     lightbox.classList.add('lightbox');
     const imagem = createImg(data[index].imagem);
+    lightbox.appendChild(fechar);
     lightbox.appendChild(imagem);
     lightbox.appendChild(sobreTrabalho);
     document.body.appendChild(lightbox);
-    document.querySelector('.sobreTrabalho').style.height = `${imagem.offsetHeight}px`;
+    if (larguraWindow > 900) document.querySelector('.sobreTrabalho').style.height = `${imagem.offsetHeight}px`;
+    else {
+        document.querySelector('.sobreTrabalho').style.width = `${imagem.offsetWidth}px`;
+    }
     lightbox.addEventListener('click', (event) => {
-        if (event.target === lightbox) document.body.removeChild(lightbox);
+        if (event.target === lightbox || event.target === fechar) document.body.removeChild(lightbox);
     });
-    document .addEventListener("keydown", (event) => {
-        if (event.key === "Escape") document.body.removeChild(lightbox);
+    document.addEventListener("keydown", (event) => {
+        if (event.key === "Escape") lightbox.remove();
     });
 }

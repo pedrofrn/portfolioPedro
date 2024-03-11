@@ -1,72 +1,58 @@
 [
     {
         "tipo": "design",
-        "titulo": "Marca Ambiental",
-        "descricao": "alguma descricao",
-        "imagem": "imgs/trabalhos/proposta-marca-grass-green2.jpg",
+        "titulo": "Marca Soluções em Feridas",
+        "descricao": "Solução desenvolvida para iniciativa comercial em prestação de serviços em saúde.",
+        "imagem": "imgs/trabalhos/marca-solucoes-em-feridas.jpg",
         "link": ""
+    },
+    {
+        "tipo": "web",
+        "titulo": "Construtor de cards",
+        "descricao": "Página na internet que preenche uma base de card com informações textuais, a partir de formulário, com opção para download.",
+        "imagem": "imgs/trabalhos/construtor-de-card.jpg",
+        "link": "https://pedrofrn.github.io/canvas-card/"
+    },
+    {
+        "tipo": "web",
+        "titulo": "Questionário para pesquisa",
+        "descricao": "Página criada para aplicar questionário e processar informações, feita para trabalho de pesquisa de mestrado.",
+        "imagem": "imgs/trabalhos/pagina-questionario-pesquisa.jpg",
+        "link": "https://pedrofrn.github.io/qivd-nuca-ufs/"
     },
     {
         "tipo": "design",
-        "titulo": "Marca Ambiental",
-        "descricao": "alguma descricao",
-        "imagem": "imgs/trabalhos/CARD-PREPARACAO-PROVA-ORAL-MP-BA.png",
+        "titulo": "Marca Vertical Creative Lab",
+        "descricao": "Criação de identidade visual para escritório de produção criativa.",
+        "imagem": "imgs/trabalhos/marca-vertical-creative-lab.jpg",
         "link": ""
     },
     {
         "tipo": "web",
-        "titulo": "Marca Ambiental",
-        "descricao": "alguma descricao",
-        "imagem": "imgs/trabalhos/card-remanescentes-santa-ines-04-03-2024.jpg",
-        "link": ""
+        "titulo": "Calculadora em ReactJS",
+        "descricao": "Calculadora feita em React, com histórico de operações no localStorage do navegador.",
+        "imagem": "imgs/trabalhos/calculadora-react.jpg",
+        "link": "https://cosmic-taiyaki-70c19f.netlify.app/"
     },
     {
         "tipo": "web",
-        "titulo": "Card desenvolvido para algo",
-        "descricao": "card-renovacao-grad uacao -s anta-ines-06-0 3-2024.png card-re novaca -graduacao-santa-ines-06-03-2024.png lorem",
-        "imagem": "imgs/trabalhos/card-renovacao-graduacao-santa-ines-06-03-2024.png",
-        "link": "2"
+        "titulo": "Jogo Soma ou Subtrai",
+        "descricao": "Jogo de operações matemáticas simples funcionando em página da web.",
+        "imagem": "imgs/trabalhos/jogo-soma-ou-subtrai.jpg",
+        "link": "https://pedrofrn.github.io/soma-ou-subtrai/"
+    },
+    {
+        "tipo": "web",
+        "titulo": "Software Storiesevento",
+        "descricao": "Software na web para coleta e exibição de fotos.",
+        "imagem": "imgs/trabalhos/storiesevento.jpg",
+        "link": "https://www.storiesevento.com.br/"
     },
     {
         "tipo": "design",
-        "titulo": "Marca Ambiental",
-        "descricao": "alguma descricao",
-        "imagem": "imgs/trabalhos/CARD-PREPARACAO-PROVA-ORAL-MP-BA.png",
-        "link": ""
-    },
-    {
-        "tipo": "web",
-        "titulo": "Marca Ambiental",
-        "descricao": "alguma descricao",
-        "imagem": "imgs/trabalhos/card-remanescentes-santa-ines-04-03-2024.jpg",
-        "link": ""
-    },
-    {
-        "tipo": "web",
-        "titulo": "Card desenvolvido para algo",
-        "descricao": "card-renovacao-grad uacao -s anta-ines-06-0 3-2024.png card-re novaca -graduacao-santa-ines-06-03-2024.png lorem",
-        "imagem": "imgs/trabalhos/card-renovacao-graduacao-santa-ines-06-03-2024.png",
-        "link": "2"
-    },
-    {
-        "tipo": "web",
-        "titulo": "Card desenvolvido para algo",
-        "descricao": "card-renovacao-grad uacao -s anta-ines-06-0 3-2024.png card-re novaca -graduacao-santa-ines-06-03-2024.png lorem",
-        "imagem": "imgs/trabalhos/card-renovacao-graduacao-santa-ines-06-03-2024.png",
-        "link": "2"
-    },
-    {
-        "tipo": "design",
-        "titulo": "Marca Ambiental",
-        "descricao": "alguma descricao",
-        "imagem": "imgs/trabalhos/CARD-PREPARACAO-PROVA-ORAL-MP-BA.png",
-        "link": ""
-    },
-    {
-        "tipo": "web",
-        "titulo": "Marca Ambiental",
-        "descricao": "alguma descricao",
-        "imagem": "imgs/trabalhos/card-remanescentes-santa-ines-04-03-2024.jpg",
+        "titulo": "Marca Projete",
+        "descricao": "Criação de marca para empresa de serviços em audiovisual.",
+        "imagem": "imgs/trabalhos/marca-projete.jpg",
         "link": ""
     }
 ]
