@@ -71,7 +71,7 @@ function createImg(src) {
 function filtroTipo(data, filtro) {
     trabalhos.innerHTML = '';
     data.forEach((trabalho, index) => {
-        if (trabalho.tipo === filtro || filtro === 'tudo') {
+        if (trabalho.tipo.toLowerCase() === filtro || filtro === 'tudo') {
             const divTrabalho = createDiv('single');
             const imagemTrabalho = createImg(trabalho.imagem);
             imagemTrabalho.dataset.index = index;
