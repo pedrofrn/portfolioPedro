@@ -20,7 +20,7 @@ div.container {
 }
 
 div.portfolio .nome {
-    color: #D9AA1E;
+    color: #c3b465;
     text-transform: uppercase;
     font-size: 9pt;
     font-weight: 800;
@@ -178,7 +178,7 @@ div.sobre span:hover {
 }
 
 div.sobre span.active {
-    background-color: #D9AA1E;
+    background-color: #c3b465;
     transition: background-color 500ms ease;
     color: #212851;
 }
@@ -211,7 +211,7 @@ div.trabalhos .single::after {
 }
 
 div.trabalhos .single:hover::after {
-    background-color: #D9AA1E43;
+    background-color: #c3b46543;
     opacity: 1;
 }
 
@@ -254,7 +254,7 @@ div.lightbox .sobreTrabalho {
 }
 
 div.lightbox .sobreTrabalho .tipo {
-    background-color: #D9AA1E;
+    background-color: #c3b465;
     color: #212851;
     width: fit-content;
     border-radius: 5px;
