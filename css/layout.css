@@ -7,6 +7,10 @@ body {
     height: 100vh;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 div.portfolio {
     width: 100%;
     box-sizing: border-box;
