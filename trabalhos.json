@@ -1,22 +1,15 @@
 [
     {
-        "tipo": "design",
-        "titulo": "Marca Soluções em Feridas",
-        "descricao": "Solução desenvolvida para iniciativa comercial em prestação de serviços em saúde.",
-        "imagem": "imgs/trabalhos/marca-solucoes-em-feridas.jpg",
-        "link": ""
-    },
-    {
         "tipo": "web",
         "titulo": "Construtor de cards",
-        "descricao": "Página na internet que preenche uma base de card com informações textuais, a partir de formulário, com opção para download.",
+        "descricao": "Página na internet (sem frameworks) que preenche uma base de card com informações textuais, a partir de formulário, com opção para download.",
         "imagem": "imgs/trabalhos/construtor-de-card.jpg",
         "link": "https://pedrofrn.github.io/canvas-card/"
     },
     {
         "tipo": "web",
         "titulo": "Questionário para pesquisa",
-        "descricao": "Página criada para aplicar questionário e processar informações, feita para trabalho de pesquisa de mestrado.",
+        "descricao": "Página criada (sem frameworks) para aplicar questionário e processar informações, feita para trabalho de pesquisa de mestrado.",
         "imagem": "imgs/trabalhos/pagina-questionario-pesquisa.jpg",
         "link": "https://pedrofrn.github.io/qivd-nuca-ufs/"
     },
@@ -37,16 +30,9 @@
     {
         "tipo": "web",
         "titulo": "Jogo Soma ou Subtrai",
-        "descricao": "Jogo de operações matemáticas simples funcionando em página da web.",
+        "descricao": "Jogo de operações matemáticas simples funcionando em página da web (sem frameworks).",
         "imagem": "imgs/trabalhos/jogo-soma-ou-subtrai.jpg",
         "link": "https://pedrofrn.github.io/soma-ou-subtrai/"
-    },
-    {
-        "tipo": "web",
-        "titulo": "Software Storiesevento",
-        "descricao": "Software na web para coleta e exibição de fotos.",
-        "imagem": "imgs/trabalhos/storiesevento.jpg",
-        "link": "https://www.storiesevento.com.br/"
     },
     {
         "tipo": "design",
@@ -54,5 +40,61 @@
         "descricao": "Criação de marca para empresa de serviços em audiovisual.",
         "imagem": "imgs/trabalhos/marca-projete.jpg",
         "link": ""
+    },
+    {
+        "tipo": "web",
+        "titulo": "Marcas e Site Memórias do Baixo Sul da Bahia",
+        "descricao": "Criação de identidades visuais e página na web (utilizando o WordPress) para projeto em educação.",
+        "imagem": "imgs/trabalhos/marcas-e-site-memorias-do-baixo-sul.jpg",
+        "link": "https://memoriasdobaixosul.com.br/"
+    },
+    {
+        "tipo": "design",
+        "titulo": "Marca Juriscontábil",
+        "descricao": "Criação de marca para empresa de consultoria.",
+        "imagem": "imgs/trabalhos/marca-juriscontabil.jpg",
+        "link": ""
+    },
+    {
+        "tipo": "design",
+        "titulo": "Marca Trabuco&Ribeiro",
+        "descricao": "Criação de marca para escritório de advocacia.",
+        "imagem": "imgs/trabalhos/marca-trabuco-e-ribeiro.jpg",
+        "link": ""
+    },
+    {
+        "tipo": "Web",
+        "titulo": "Marca e Site AmigoArtificial",
+        "descricao": "Criação de marca e blog utilizando o WordPress.",
+        "imagem": "imgs/trabalhos/amigo-artificial.jpg",
+        "link": "https://amigoartificial.com.br/"
+    },
+    {
+        "tipo": "Web",
+        "titulo": "Site para Equipe Smart",
+        "descricao": "Criação de site utilizando o WordPress.",
+        "imagem": "imgs/trabalhos/smart-equipe.jpg",
+        "link": "https://equipesmart.com/"
+    },
+    {
+        "tipo": "Web",
+        "titulo": "Site para corretor de imóveis",
+        "descricao": "Criação de site utilizando o WordPress.",
+        "imagem": "imgs/trabalhos/sitio-a-venda.jpg",
+        "link": "https://sitioemsantoantoniodejesus.com.br/"
+    },
+    {
+        "tipo": "Web",
+        "titulo": "Site para Colégio Montessoriano",
+        "descricao": "Criação de site utilizando o WordPress.",
+        "imagem": "imgs/trabalhos/colegio-montessoriano.jpg",
+        "link": "https://montessoriano.com.br/"
+    },
+    {
+        "tipo": "web",
+        "titulo": "Software Storiesevento",
+        "descricao": "Software na web para coleta e exibição de fotos. Backend em NodeJS e frontend em ReactJS.",
+        "imagem": "imgs/trabalhos/storiesevento.jpg",
+        "link": "https://www.storiesevento.com.br/"
     }
 ]
