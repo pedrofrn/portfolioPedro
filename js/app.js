@@ -59,6 +59,8 @@ fetch('trabalhos.json')
         main.insertBefore(divFlex, trabalhos);
 
         divFlex.addEventListener('click', (event) => {
+            if (event.target.tagName !== 'SPAN') return;
+
             const spans = divFlex.querySelectorAll('span');
             spans.forEach(span => {
                 if (span.classList.contains('active')) span.classList.remove('active');
@@ -83,7 +85,10 @@ fetch('trabalhos.json')
 
 function createDiv(classe, innerCode = null) {
     const div = document.createElement('div');
-    div.classList.add(classe);
+    if (classe) {
+        const classes = classe.split(' ');
+        div.classList.add(...classes);
+    }
     if (innerCode) div.innerHTML = innerCode;
     return div;
 }
@@ -162,9 +167,17 @@ function openLightbox(index, data) {
     lightbox.appendChild(sobreTrabalho);
     document.body.appendChild(lightbox);
 
-    if (larguraWindow > 900) document.querySelector('.sobreTrabalho').style.height = `${imagem.offsetHeight}px`;
-    else {
-        document.querySelector('.sobreTrabalho').style.width = `${imagem.offsetWidth}px`;
+    const adjustSize = () => {
+        if (larguraWindow > 900) document.querySelector('.sobreTrabalho').style.height = `${imagem.offsetHeight}px`;
+        else {
+            document.querySelector('.sobreTrabalho').style.width = `${imagem.offsetWidth}px`;
+        }
+    };
+
+    if (imagem.complete) {
+        adjustSize();
+    } else {
+        imagem.onload = adjustSize;
     }
 
     // Eventos
