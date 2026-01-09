@@ -4,97 +4,111 @@
         "titulo": "Portal de Ingresso de Estudantes do IF Baiano",
         "descricao": "Portal para inscrição de estudantes em cursos técnicos do Instituto Federal Baiano. Desenvolvido com WordPress.",
         "imagem": "imgs/trabalhos/ingresso-if-baiano.jpg",
-        "link": "https://ingresso.ifbaiano.edu.br/"
+        "link": "https://ingresso.ifbaiano.edu.br/",
+        "tags": ["WordPress", "PHP", "CSS"]
     },
     {
         "tipo": "web",
         "titulo": "Questionário para pesquisa",
         "descricao": "Página criada (sem frameworks) para aplicar questionário e processar informações, feita para trabalho de pesquisa de mestrado.",
         "imagem": "imgs/trabalhos/pagina-questionario-pesquisa.jpg",
-        "link": "https://pedrofrn.github.io/qivd-nuca-ufs/"
+        "link": "https://pedrofrn.github.io/qivd-nuca-ufs/",
+        "tags": ["HTML", "CSS", "Vanilla JS"]
     },
     {
         "tipo": "design",
         "titulo": "Marca Vertical Creative Lab",
         "descricao": "Criação de identidade visual para escritório de produção criativa.",
         "imagem": "imgs/trabalhos/marca-vertical-creative-lab.jpg",
-        "link": ""
+        "link": "",
+        "tags": ["Illustrator", "Branding"]
     },
     {
         "tipo": "web",
         "titulo": "Calculadora em ReactJS",
         "descricao": "Calculadora feita em React, com histórico de operações no localStorage do navegador.",
         "imagem": "imgs/trabalhos/calculadora-react.jpg",
-        "link": "https://cosmic-taiyaki-70c19f.netlify.app/"
+        "link": "https://cosmic-taiyaki-70c19f.netlify.app/",
+        "tags": ["ReactJS", "CSS Modules"]
     },
     {
         "tipo": "web",
         "titulo": "Jogo Soma ou Subtrai",
         "descricao": "Jogo de operações matemáticas simples funcionando em página da web (sem frameworks).",
         "imagem": "imgs/trabalhos/jogo-soma-ou-subtrai.jpg",
-        "link": "https://pedrofrn.github.io/soma-ou-subtrai/"
+        "link": "https://pedrofrn.github.io/soma-ou-subtrai/",
+        "tags": ["Vanilla JS", "HTML", "Game Logic"]
     },
     {
         "tipo": "design",
         "titulo": "Marca Projete",
         "descricao": "Criação de marca para empresa de serviços em audiovisual.",
         "imagem": "imgs/trabalhos/marca-projete.jpg",
-        "link": ""
+        "link": "",
+        "tags": ["Illustrator", "Photoshop"]
     },
     {
         "tipo": "web",
         "titulo": "Marcas e Site Memórias do Baixo Sul da Bahia",
         "descricao": "Criação de identidades visuais e página na web (utilizando o WordPress) para projeto em educação.",
         "imagem": "imgs/trabalhos/marcas-e-site-memorias-do-baixo-sul.jpg",
-        "link": "https://memoriasdobaixosul.com.br/"
+        "link": "https://memoriasdobaixosul.com.br/",
+        "tags": ["WordPress", "Branding", "Elementor"]
     },
     {
         "tipo": "design",
         "titulo": "Marca Juriscontábil",
         "descricao": "Criação de marca para empresa de consultoria.",
         "imagem": "imgs/trabalhos/marca-juriscontabil.jpg",
-        "link": ""
+        "link": "",
+        "tags": ["Illustrator", "Branding"]
     },
     {
         "tipo": "design",
         "titulo": "Marca Trabuco&Ribeiro",
         "descricao": "Criação de marca para escritório de advocacia.",
         "imagem": "imgs/trabalhos/marca-trabuco-e-ribeiro.jpg",
-        "link": ""
+        "link": "",
+        "tags": ["Illustrator", "Branding"]
     },
     {
         "tipo": "web",
         "titulo": "Marca e Site AmigoArtificial",
         "descricao": "Criação de marca e blog utilizando o WordPress.",
         "imagem": "imgs/trabalhos/amigo-artificial.jpg",
-        "link": "https://amigoartificial.com.br/"
+        "link": "https://amigoartificial.com.br/",
+        "tags": ["WordPress", "Branding", "SEO"]
     },
     {
         "tipo": "web",
         "titulo": "Site para Equipe Smart",
         "descricao": "Criação de site utilizando o WordPress.",
         "imagem": "imgs/trabalhos/smart-equipe.jpg",
-        "link": "https://equipesmart.com/"
+        "link": "https://equipesmart.com/",
+        "tags": ["WordPress", "CSS"]
     },
     {
         "tipo": "web",
         "titulo": "Site Mundo dos Jogos",
         "descricao": "Projeto de portal de jogos em WordPress. Gerenciamento de conteúdo, construção e customização de tema.",
         "imagem": "imgs/trabalhos/mundo-dos-jogos.jpg",
-        "link": "https://mundodosjogos.org/"
+        "link": "https://mundodosjogos.org/",
+        "tags": ["WordPress", "PHP", "Content"]
     },
     {
         "tipo": "web",
         "titulo": "Site para Colégio Montessoriano",
         "descricao": "Criação de site utilizando o WordPress.",
         "imagem": "imgs/trabalhos/colegio-montessoriano.jpg",
-        "link": "https://montessoriano.com.br/"
+        "link": "https://montessoriano.com.br/",
+        "tags": ["WordPress", "Elementor"]
     },
     {
         "tipo": "web",
         "titulo": "Software Storiesevento",
         "descricao": "Software na web para coleta e exibição de fotos. Backend em NodeJS e frontend em ReactJS.",
         "imagem": "imgs/trabalhos/storiesevento.jpg",
-        "link": "https://www.storiesevento.com.br/"
+        "link": "https://www.storiesevento.com.br/",
+        "tags": ["NodeJS", "ReactJS", "API"]
     }
 ]

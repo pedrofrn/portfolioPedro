@@ -1,11 +1,39 @@
+:root {
+    --bg-color: #f8f8ff;
+    --text-color: #212851;
+    --header-text: #434c7a;
+    --accent-color: #c3b465;
+    --card-bg: #fff;
+    --lightbox-bg: rgba(20, 25, 53, 0.95);
+    --panel-bg: #e4e7f4;
+    --panel-text: #54586e;
+    --filter-bg: #e0e1f9;
+    --filter-active: #c3b465;
+}
+
+body.dark-mode {
+    --bg-color: #1a1a2e;
+    --text-color: #e0e1f9;
+    --header-text: #aeb4d1;
+    --accent-color: #ffd700;
+    --card-bg: #16213e;
+    --lightbox-bg: rgba(0, 0, 0, 0.95);
+    --panel-bg: #16213e;
+    --panel-text: #aeb4d1;
+    --filter-bg: #16213e;
+    --filter-active: #ffd700;
+}
+
 body {
     margin: 0 auto;
     font-family: 'Noto Sans', sans-serif;
     letter-spacing: -.02em;
-    background-color: #f8f8ff;
+    background-color: var(--bg-color);
+    color: var(--text-color);
     position: relative;
     height: 100vh;
     overflow-y: scroll;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 * {
@@ -16,7 +44,9 @@ div.portfolio {
     width: 100%;
     box-sizing: border-box;
     padding: 10px 0;
-    background-color: #212851;
+    background-color: var(--text-color); /* Invertido intencionalmente ou mantido fixo? Mantendo fixo pois é barra de status */
+    /* Melhor: usar uma cor fixa para a barra de topo ou adaptar. Vamos adaptar para ficar coeso */
+    background-color: #212851; 
 }
 
 div.container {
@@ -25,7 +55,7 @@ div.container {
 }
 
 div.portfolio .nome {
-    color: #c3b465;
+    color: var(--accent-color);
     text-transform: uppercase;
     font-size: 9pt;
     font-weight: 800;
@@ -54,7 +84,7 @@ header {
     flex-direction: column;
     padding: 30px 10px;
     gap: 15px;
-    color: #212851;
+    color: var(--text-color);
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -74,7 +104,7 @@ header .foto {
     height: auto;
     border-radius: 50%;
     overflow: hidden;
-    border: 1px solid #3b49a438;
+    border: 1px solid rgba(59, 73, 164, 0.22);
 }
 
 header .foto img {
@@ -97,7 +127,7 @@ header .info p {
 header .info h1 {
     font-size: 18pt;
     letter-spacing: -.03em;
-    color: #434c7a;
+    color: var(--header-text);
     font-weight: 900;
 }
 
@@ -106,6 +136,7 @@ header .info p {
     font-size: 8.5pt;
     margin-bottom: 5px;
     text-wrap: balance;
+    color: var(--header-text);
 }
 
 header .detalhes {
@@ -121,7 +152,7 @@ header .detalhes span {
     background-size: contain;
     background-repeat: no-repeat;
     padding-left: 17px;
-    color: #434c7a;
+    color: var(--header-text);
 
 }
 
@@ -133,6 +164,8 @@ header .detalhes a {
 span.onde {
     background-image: url('data:image/svg+xml;utf8,<svg data-slot="icon" fill="none" stroke-width="1.5" stroke="%233b49a4" viewBox="0 0 22 25" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"></path></svg>');
 }
+
+/* Ajuste de ícones para dark mode via filtro seria ideal, mas vamos manter simples por enquanto */
 
 span.whatsapp {
     background-image: url('data:image/svg+xml;utf8,<svg data-slot="icon" fill="%23269114" stroke-width="1" stroke="none" viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M19.11 17.205c-.372 0-1.088 1.39-1.518 1.39a.63.63 0 0 1-.315-.1c-.802-.402-1.504-.817-2.163-1.447-.545-.516-1.146-1.29-1.46-1.963a.426.426 0 0 1-.073-.215c0-.33.99-.945.99-1.49 0-.143-.73-2.09-.832-2.335-.143-.372-.214-.487-.6-.487-.187 0-.36-.043-.53-.043-.302 0-.53.115-.746.315-.688.645-1.032 1.318-1.06 2.264v.114c-.015.99.472 1.977 1.017 2.78 1.23 1.82 2.506 3.41 4.554 4.34.616.287 2.035.888 2.722.888.817 0 2.15-.515 2.478-1.318.13-.33.244-.73.244-1.088 0-.058 0-.144-.03-.215-.1-.172-2.434-1.39-2.678-1.39zm-2.908 7.593c-1.747 0-3.48-.53-4.942-1.49L7.793 24.41l1.132-3.337a8.955 8.955 0 0 1-1.72-5.272c0-4.955 4.04-8.995 8.997-8.995S25.2 10.845 25.2 15.8c0 4.958-4.04 8.998-8.998 8.998zm0-19.798c-5.96 0-10.8 4.842-10.8 10.8 0 1.964.53 3.898 1.546 5.574L5 27.176l5.974-1.92a10.807 10.807 0 0 0 16.03-9.455c0-5.958-4.842-10.8-10.802-10.8z"></path></svg>');
@@ -160,7 +193,7 @@ div.sobre {
     width: 100%;
     padding-bottom: 10px;
     text-align: center;
-    color: #434c7a;
+    color: var(--header-text);
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: .1em;
@@ -168,13 +201,14 @@ div.sobre {
 }
 
 div.sobre span {
-    background-color: #e0e1f9;
+    background-color: var(--filter-bg);
     width: 100%;
     border-radius: 2px;
     display: block;
     padding: 5px 0;
     cursor: pointer;
     font-weight: 800;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 div.sobre span:hover {
@@ -183,9 +217,8 @@ div.sobre span:hover {
 }
 
 div.sobre span.active {
-    background-color: #c3b465;
-    transition: background-color 500ms ease;
-    color: #212851;
+    background-color: var(--filter-active);
+    color: #212851; /* Mantendo escuro no ativo para contraste com o amarelo/dourado */
 }
 
 div.trabalhos {
@@ -206,6 +239,7 @@ div.trabalhos .single {
     opacity: 0; /* Começa invisível para animação */
     transform: translateY(20px); /* Começa deslocado para baixo */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: var(--card-bg);
 }
 
 div.trabalhos .single.visible {
@@ -261,7 +295,7 @@ div.lightbox {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(20, 25, 53, 0.84);
+    background-color: var(--lightbox-bg);
     z-index: 9999;
 }
 
@@ -272,7 +306,7 @@ div.lightbox img {
 }
 
 div.lightbox .sobreTrabalho {
-    background-color: #e4e7f4;
+    background-color: var(--panel-bg);
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -282,10 +316,11 @@ div.lightbox .sobreTrabalho {
     box-sizing: border-box;
     border-radius: 0 5px 5px 0;
     position: relative;
+    transition: background-color 0.3s ease;
 }
 
 div.lightbox .sobreTrabalho .tipo {
-    background-color: #c3b465;
+    background-color: var(--accent-color);
     color: #212851;
     width: fit-content;
     border-radius: 5px;
@@ -301,13 +336,13 @@ div.lightbox .sobreTrabalho h2 {
     margin-bottom: 0;
     text-wrap: balance;
     line-height: 1.1em;
-    color: #000000;
+    color: var(--header-text); /* Antes #000 */
 }
 
 div.lightbox .sobreTrabalho p {
     margin: 0;
     text-wrap: balance;
-    color: #54586e;
+    color: var(--panel-text);
 }
 
 div.lightbox .sobreTrabalho div {
@@ -326,6 +361,7 @@ div.lightbox .sobreTrabalho .rodapeLightbox {
     position: absolute;
     font-size: 8pt;
     bottom: 20px;
+    color: var(--panel-text);
 }
 
 div.lightbox .fechar {
@@ -345,12 +381,13 @@ footer {
     bottom: 0;
     padding: 5px 0;
     width: 100%;
-    background-color: #e0e1f9f2;
+    background-color: var(--panel-bg);
+    opacity: 0.95;
 }
 
 footer div {
     text-align: center;
-    color: #212851;
+    color: var(--header-text);
 }
 
 @media (max-width:900px) {
@@ -375,5 +412,72 @@ footer div {
         bottom: 0 !important;
         padding: 10px 0 0 0 !important;
         margin-top: 10px;
+    }
+}
+
+/* Tags de Tecnologia */
+.tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin: 10px 0;
+}
+
+.tag {
+    background-color: #212851;
+    color: #fff;
+    font-size: 7pt;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+/* Navegação do Lightbox */
+.nav-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    font-size: 24px;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 50%;
+    user-select: none;
+    transition: background-color 0.3s ease;
+    z-index: 10001;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-btn:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.nav-btn.prev {
+    left: 20px;
+}
+
+.nav-btn.next {
+    right: 20px;
+}
+
+@media (max-width: 900px) {
+    .nav-btn {
+        padding: 10px;
+        font-size: 18px;
+        width: 40px;
+        height: 40px;
+    }
+    .nav-btn.prev {
+        left: 5px;
+    }
+    .nav-btn.next {
+        right: 5px;
     }
 }
