@@ -1,10 +1,10 @@
 [
     {
         "tipo": "web",
-        "titulo": "Construtor de cards",
-        "descricao": "Página na internet (sem frameworks) que preenche uma base de card com informações textuais, a partir de formulário, com opção para download.",
-        "imagem": "imgs/trabalhos/construtor-de-card.jpg",
-        "link": "https://pedrofrn.github.io/canvas-card/"
+        "titulo": "Portal de Ingresso de Estudantes do IF Baiano",
+        "descricao": "Portal para inscrição de estudantes em cursos técnicos do Instituto Federal Baiano. Desenvolvido com WordPress.",
+        "imagem": "imgs/trabalhos/ingresso-if-baiano.jpg",
+        "link": "https://ingresso.ifbaiano.edu.br/"
     },
     {
         "tipo": "web",
@@ -63,28 +63,28 @@
         "link": ""
     },
     {
-        "tipo": "Web",
+        "tipo": "web",
         "titulo": "Marca e Site AmigoArtificial",
         "descricao": "Criação de marca e blog utilizando o WordPress.",
         "imagem": "imgs/trabalhos/amigo-artificial.jpg",
         "link": "https://amigoartificial.com.br/"
     },
     {
-        "tipo": "Web",
+        "tipo": "web",
         "titulo": "Site para Equipe Smart",
         "descricao": "Criação de site utilizando o WordPress.",
         "imagem": "imgs/trabalhos/smart-equipe.jpg",
         "link": "https://equipesmart.com/"
     },
     {
-        "tipo": "Web",
-        "titulo": "Site para corretor de imóveis",
-        "descricao": "Criação de site utilizando o WordPress.",
-        "imagem": "imgs/trabalhos/sitio-a-venda.jpg",
-        "link": "https://sitioemsantoantoniodejesus.com.br/"
+        "tipo": "web",
+        "titulo": "Site Mundo dos Jogos",
+        "descricao": "Projeto de portal de jogos em WordPress. Gerenciamento de conteúdo, construção e customização de tema.",
+        "imagem": "imgs/trabalhos/mundo-dos-jogos.jpg",
+        "link": "https://mundodosjogos.org/"
     },
     {
-        "tipo": "Web",
+        "tipo": "web",
         "titulo": "Site para Colégio Montessoriano",
         "descricao": "Criação de site utilizando o WordPress.",
         "imagem": "imgs/trabalhos/colegio-montessoriano.jpg",

@@ -20,6 +20,11 @@ fetch('trabalhos.json')
             imagemTrabalho.dataset.index = index;
             divTrabalho.appendChild(imagemTrabalho);
             trabalhos.appendChild(divTrabalho);
+            
+            // Animação de entrada
+            setTimeout(() => {
+                divTrabalho.classList.add('visible');
+            }, index * 100);
         });
 
         const sobreTrabalhos = createDiv('sobre', `<span>Tudo (${tudo})</span>`);
@@ -70,6 +75,7 @@ function createImg(src) {
 
 function filtroTipo(data, filtro) {
     trabalhos.innerHTML = '';
+    let visibleIndex = 0;
     data.forEach((trabalho, index) => {
         if (trabalho.tipo.toLowerCase() === filtro || filtro === 'tudo') {
             const divTrabalho = createDiv('single');
@@ -77,6 +83,12 @@ function filtroTipo(data, filtro) {
             imagemTrabalho.dataset.index = index;
             divTrabalho.appendChild(imagemTrabalho);
             trabalhos.appendChild(divTrabalho);
+            
+            // Animação de entrada
+            setTimeout(() => {
+                divTrabalho.classList.add('visible');
+            }, visibleIndex * 100);
+            visibleIndex++;
         }
     });
     const imagens = document.querySelectorAll('.single img');
